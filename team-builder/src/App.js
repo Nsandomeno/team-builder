@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MemberForm from "./Form.js";
+
 
 function App() {
+
+  const [formValues, setFormValues] = useState("");
+
+
   return (
     <div className="App">
       <header className="App-header">
